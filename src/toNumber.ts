@@ -1,3 +1,4 @@
+/* eslint-disable no-prototype-builtins */
 export interface objectWithLength extends Object{
     length: number
 }

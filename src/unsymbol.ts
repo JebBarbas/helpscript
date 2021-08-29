@@ -11,7 +11,7 @@ import _ from 'lodash'
  * unsymbol('me & you', true) // me Ampersand you
  * unsymbol('5!',false,{'!':'Factorial','5':'Cinco'}) // CincoFactorial
  */
-export const unsymbol = (text:string, literal?:boolean, extensions?:object):string => {
+export const unsymbol = (text:string, literal?:boolean, extensions?:Record<string,unknown>):string => {
     const lit = literal ? true : false
     const symbols = {
         '`': lit ? 'Apostrophe' : '',

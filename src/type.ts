@@ -5,6 +5,6 @@
  * @example
  * type("hola") // string
  */
-export const type = (expression:any):string => {
+export const type = (expression:unknown):string => {
     return typeof expression
 }

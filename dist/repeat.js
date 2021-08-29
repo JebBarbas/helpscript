@@ -1,6 +1,7 @@
 "use strict";
 exports.__esModule = true;
 exports.repeat = void 0;
+/* eslint-disable @typescript-eslint/ban-types */
 var sleep_1 = require("./sleep");
 /**
  *

@@ -1,1 +1,1 @@
-{"version":3,"file":"toBoolean.js","sourceRoot":"","sources":["../src/toBoolean.ts"],"names":[],"mappings":";;;AAAA;;;;;;;;GAQG;AACI,IAAM,SAAS,GAAG,UAAC,UAAc;IACpC,OAAO,CAAC,CAAC,UAAU,CAAA;AACvB,CAAC,CAAA;AAFY,QAAA,SAAS,aAErB"}
+{"version":3,"file":"toBoolean.js","sourceRoot":"","sources":["../src/toBoolean.ts"],"names":[],"mappings":";;;AAAA;;;;;;;;GAQG;AACI,IAAM,SAAS,GAAG,UAAC,UAAkB;IACxC,OAAO,CAAC,CAAC,UAAU,CAAA;AACvB,CAAC,CAAA;AAFY,QAAA,SAAS,aAErB"}

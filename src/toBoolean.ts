@@ -7,6 +7,6 @@
  * boolean(0) // false
  * boolean("") // false
  */
-export const toBoolean = (expression:any):boolean => {
+export const toBoolean = (expression:unknown):boolean => {
     return !!expression
 }

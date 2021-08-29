@@ -6,8 +6,8 @@
  * @returns The text but without symbols
  * @example
  * unsymbol('Red + Blue') // Red Plus Blue
- * unsymbol('me & you', true) // me and you
- * unsymbol('5!',extensions={'!':'Factorial','5':'Cinco'}) // CincoFactorial
+ * unsymbol('me & you', true) // me Ampersand you
+ * unsymbol('5!',false,{'!':'Factorial','5':'Cinco'}) // CincoFactorial
  */
-export declare const unsymbol: (text: string, literal?: boolean | undefined, extensions?: object | undefined) => string;
+export declare const unsymbol: (text: string, literal?: boolean | undefined, extensions?: Record<string, unknown> | undefined) => string;
 //# sourceMappingURL=unsymbol.d.ts.map

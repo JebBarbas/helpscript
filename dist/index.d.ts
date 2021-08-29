@@ -1,4 +1,5 @@
 export { repeat } from './repeat';
+export { repeatAsync } from './repeatAsync';
 export { sleep } from './sleep';
 export { sleepAsync } from './sleepAsync';
 export { testif } from './testif';

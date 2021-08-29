@@ -9,7 +9,7 @@ var escapeNumbers_1 = require("./escapeNumbers");
  * @param text The text you want to variablelify
  * @returns A valid variable name
  * @example
- * variablelify("10 Dollars + 50 Shades (Plus)") // tenDollarsPlusFiftyShadesParenthesesPlusParentheses
+ * variablelify("10 Dollars + 50 Shades (Plus)") // tenDollarsPlusFiftyShadesPlus
  */
 var variablelify = function (text) {
     return lodash_1.camelCase(escapeNumbers_1.escapeNumbers(unsymbol_1.unsymbol(text)));

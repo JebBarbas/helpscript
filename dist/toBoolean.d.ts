@@ -7,5 +7,5 @@
  * boolean(0) // false
  * boolean("") // false
  */
-export declare const toBoolean: (expression: any) => boolean;
+export declare const toBoolean: (expression: unknown) => boolean;
 //# sourceMappingURL=toBoolean.d.ts.map

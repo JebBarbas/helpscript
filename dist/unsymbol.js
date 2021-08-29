@@ -24,8 +24,8 @@ var lodash_1 = __importDefault(require("lodash"));
  * @returns The text but without symbols
  * @example
  * unsymbol('Red + Blue') // Red Plus Blue
- * unsymbol('me & you', true) // me and you
- * unsymbol('5!',extensions={'!':'Factorial','5':'Cinco'}) // CincoFactorial
+ * unsymbol('me & you', true) // me Ampersand you
+ * unsymbol('5!',false,{'!':'Factorial','5':'Cinco'}) // CincoFactorial
  */
 var unsymbol = function (text, literal, extensions) {
     var lit = literal ? true : false;

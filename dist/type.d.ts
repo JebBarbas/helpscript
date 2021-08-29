@@ -5,5 +5,5 @@
  * @example
  * type("hola") // string
  */
-export declare const type: (expression: any) => string;
+export declare const type: (expression: unknown) => string;
 //# sourceMappingURL=type.d.ts.map
