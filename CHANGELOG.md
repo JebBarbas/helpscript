@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/JebBarbas/helpscript/compare/v2.0.0...v2.0.1) (2022-04-17)
+
+
+### Bug Fixes
+
+* Trying to fix readme not showing in npm ([8646ed6](https://github.com/JebBarbas/helpscript/commit/8646ed60c022cba93943a6ec54d4d271f0405e59))
+
 ## [2.0.0](https://github.com/JebBarbas/helpscript/compare/v1.0.3...v2.0.0) (2022-04-17)
 
 
