@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/JebBarbas/helpscript/compare/v1.0.3...v2.0.0) (2022-04-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* New functions
+
+### Features
+
+* New functions ([6b74a4f](https://github.com/JebBarbas/helpscript/commit/6b74a4f7dd0322c292d284e22062065329464e3b))
+
 ### [1.0.3](https://github.com/JebBarbas/helpscript/compare/v1.0.2...v1.0.3) (2021-08-29)
 
 
